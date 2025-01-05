@@ -1,0 +1,70 @@
+
+NGraphics = {
+	# Dynamic map objects
+	HIDDEN_MAP_OBJECT_LAYERS = { "mines_dynamic" "farms_dynamic" "forestry_dynamic" }	# These layers are hidden by default when the game starts
+	DYNAMIC_MAP_OBJECT_LAYERS = { "semidynamic" "semidynamic_medium" "semidynamic_high" "mines_dynamic" "farms_dynamic" "forestry_dynamic" }	# These layers are cut by city growth and roads
+	DYNAMIC_MAP_OBJECT_MASK_THRESHOLD_SHOW = 0.07					# When dynamic objects are being shown/hidden they use the material mask. This value determines the point at which the mask will make the objects to show/hide.
+	DYNAMIC_MAP_OBJECT_MASK_THRESHOLD_HIDE = 0.01
+	DYNAMIC_TERRAIN_ROAD_WIDTH = 1.2	# was 2.5					# Controls how wide roads are considered to be when clearing map objects
+	DYNAMIC_TERRAIN_LAZY_UPDATE_PROVINCES_PER_FRAME = 16			# Max number of provinces that may be updated per frame.
+	DYNAMIC_TERRAIN_LAZY_UPDATE_MAX_TIME_PER_FRAME = 0.0012			# Max time per frame to spend on dynamic terrain updates in seconds.
+
+
+	# Route Spline fix
+	ROUTE_GENERATION_NAV_MESH_DENSITY = 0.25	# was 0.375			# Controls the density of vertexes in the navmesh used to generate the road system
+
+
+	# Front entities graphics
+	FRONT_ENTITIES_CUTOFF = 300 			# Zoom at which we hide all front entities
+	FRONT_DIORAMA_GRID_WIDTH = 10  # was 20			# Grid width of a diorama inside a province
+	FRONT_DIORAMA_GRID_HEIGHT = 2  # was 20			# Grid height of a diorama inside a province
+	FRONT_DIORAMA_GRID_SCALE = 0.75  # was 1.1			# Grid cell scale of a diorama inside a province
+	FRONT_DIORAMA_STATE_DEFAULT = "idle"		# Animation state name for entities when they do nothing (before war)
+	FRONT_DIORAMA_STATE_NO_GENERAL = "defend"	# Animation state name for entities without a general's order
+	FRONT_DIORAMA_FLAT_MAP_ENTITY = "generic_flatmap_unit_entity"	# The entity that is visible in the flat map mode instead of front entities
+
+
+	# Battle entities graphics
+	BATTLE_DIORAMA_GRID_WIDTH = 15  # was 30			# Grid width of a diorama inside a province
+	BATTLE_DIORAMA_GRID_HEIGHT = 4  # was 40			# Grid height of a diorama inside a province
+	BATTLE_DIORAMA_GRID_SCALE = 0.75  # was 1.1			# Grid cell scale of a diorama inside a province
+	NAVAL_ORDER_ENTITY_HEIGHT = 0.04  # was 0.25		# Height above water
+
+
+}
+
+
+
+
+
+NCities = {
+	GRID_SCALE = 0.5					# was 1.1
+	MESH_SCALE = 0.55					# was 1.0
+
+	CITY_RIVER_DISTANCE_BIAS = 0.2		# was 0.75   # Higher values = more river avoidance
+	FARM_RIVER_DISTANCE_BIAS = 0.2
+	MINE_RIVER_DISTANCE_BIAS = 0.2
+	PORT_RIVER_DISTANCE_BIAS = 0.2
+	WOOD_RIVER_DISTANCE_BIAS = 0.2
+
+	CITY_ROAD_DISTANCE_BIAS = 0.1	    # was -1
+	FARM_ROAD_DISTANCE_BIAS = 0.2
+	MINE_ROAD_DISTANCE_BIAS = 0.2       # was 0.25
+	PORT_ROAD_DISTANCE_BIAS = 0.1
+	WOOD_ROAD_DISTANCE_BIAS = 0.2
+}
+
+
+
+
+NRoutes = {
+	DIRTROAD_BRIDGES = { "dirtroad_bridge_01" }
+	RAILROAD_1_BRIDGES = { "dirtroad_bridge_01" "railroad_bridge_01" "railroad_bridge_02" }
+	BRIDGE_SIZES = {
+		"_small_mesh"
+		"_medium_mesh"
+		# "_large_mesh"
+		}
+	ROUTE_ENTITIES_CUTOFF = 250				# zoom at which we hide all route entities
+}
+

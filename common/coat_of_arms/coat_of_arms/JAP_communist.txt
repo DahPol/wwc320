@@ -1,0 +1,9 @@
+JAP_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+		
+	textured_emblem = {
+		texture = "te_jap_com.dds"
+		instance = { scale = { 0.9 0.9 } position = { 0.52 0.5 } }			
+	}
+}

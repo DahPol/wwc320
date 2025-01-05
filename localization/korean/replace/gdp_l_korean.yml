@@ -1,0 +1,2 @@
+﻿l_korean:
+GDP_TOOLTIP: "#header [concept_gdp]#!\n[Country.GetAdjective] $GDP_SHORT$: @money![Country.GetGDP|Dv] ($GDPGR_growth_text$) ([Country.GetGDPRanking])\n$TOOLTIP_DELIMITER$\n인당 국내총생산: #variable @money![Country.GetGDPPerCapita|2*]#! ([Country.GetGDPPerCapitaRanking])\n\n"

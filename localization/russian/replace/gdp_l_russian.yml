@@ -1,0 +1,2 @@
+﻿l_russian:
+GDP_TOOLTIP: "#header [concept_gdp]#!\n#tooltippable_name [Country.GetAdjective]ий#! ВВП: @money![Country.GetGDP|Dv] ($GDPGR_growth_text$) ([Country.GetGDPRanking])\n$TOOLTIP_DELIMITER$\nВВП на душу населения: #variable @money![Country.GetGDPPerCapita|2*]#! [Country.GetGDPPerCapitaRanking]\n\n"

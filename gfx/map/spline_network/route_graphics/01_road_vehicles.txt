@@ -1,0 +1,203 @@
+﻿#################################################################
+#####				TRADE ROUTE GRAPHICS					#####
+#################################################################
+
+
+#################################################
+###       			HORSE 		 			  ###
+#################################################
+
+horse_cart_dirtroad_route_graphics = {
+	valid_spline_styles = { "dirtroad" }
+	speed = 0.5
+	min_caravan_distance = 10.0
+	max_count = 400
+	max_path_length = 2
+	route_entities = {
+		horses_01 = {
+			entity = "horses_01_entity"
+			position = 0
+			entity_length = 0.7  # was 0.7
+		
+			possible = {
+				NOR = {
+					gfx_car_condition_trigger = yes
+					gfx_truck_condition_trigger = yes
+					gfx_tracktor_condition_trigger = yes
+				}
+			}
+			
+			count = {
+				integer_range = {
+					min = 1
+					max = 2
+				}
+			}
+		}
+
+		cart_01 = {
+			entity = "horse_cart_01_entity"
+			position = 1
+			entity_length = 0.9  # was 0.9
+		
+			possible = {
+				NOR = {
+					gfx_car_condition_trigger = yes
+					gfx_truck_condition_trigger = yes
+					gfx_tracktor_condition_trigger = yes
+				}
+			}
+			
+			count = {
+				value = 1
+			}
+		}
+	}
+}
+
+#################################################
+###       			MOTORS 		 			  ###
+#################################################
+
+motor_dirt_road_route_graphics = {
+	valid_spline_styles = { "dirtroad" }
+	speed = 0.5
+	min_caravan_distance = 10.0
+	max_count = 400
+	max_path_length = 4
+	route_entities = {
+		car_01 = {
+			entity = "european_car_01_entity"
+			position = 0
+			entity_length = 3.0  # was 3.0
+			possible = {
+				gfx_car_condition_trigger = yes
+			}
+			count = {
+				value = 1
+			}
+		}
+		truck_01 = {
+			entity = "flatbed_truck_01_entity"
+			position = 0
+			entity_length = 3.0  # was 3.0
+			possible = {
+				gfx_truck_condition_trigger = yes
+			}
+			count = {
+				value = 1
+			}
+		}
+		tractor_01 = {
+			entity = "tractor_01_entity"
+			position = 0
+			entity_length = 3.0  # was 3.0
+			possible = {
+				gfx_tracktor_condition_trigger = yes
+			}
+			count = {
+				value = 1
+			}
+		}
+	}
+}
+
+
+#################################################################
+#####				TRADE ROUTE GRAPHICS END				#####
+#################################################################
+
+
+
+
+
+
+
+
+
+#################################################################
+#####				MILITARY MOBILIZATION					#####
+#################################################################
+
+military_mobilization_dirtroad = {
+	
+	valid_spline_styles = { "dirtroad" }
+
+	speed = 0.5
+	min_caravan_distance = 10.0
+	max_count = 400
+	max_path_length = 2
+
+	route_entities = {
+
+
+#################################################################
+#####						CARGO							#####
+#################################################################
+
+		generic_military_truck_01 = {
+			entity = "military_transport_road_truck_generic_entity"
+			position = 1
+			entity_length = 2.0  # was 2.0
+			possible = {
+				any_military_formation = {
+					is_mobilized = yes
+				}
+				army_mobilization_option_fraction = {
+					target = mobilization_option:mobilization_option_truck_transport
+					value >= 0.2
+				}
+			}
+			count = {
+				value = 1
+			}
+		}
+
+		military_horses_01 = {
+			entity = "horses_01_entity"
+			position = 1
+			entity_length = 0.7  # was 0.7
+			possible = {
+				any_military_formation = {
+					is_mobilized = yes
+				}
+				army_mobilization_option_fraction = {
+					target = mobilization_option:mobilization_option_truck_transport
+					value < 0.2
+				}
+			}
+			count = {
+				integer_range = {
+					min = 1
+					max = 2
+				}
+			}
+		}
+
+		military_cart_01 = {
+			entity = "military_transport_road_horsecart_generic_entity"
+			position = 2
+			entity_length = 0.9  # was 0.9
+			possible = {
+				any_military_formation = {
+					is_mobilized = yes
+				}
+				army_mobilization_option_fraction = {
+					target = mobilization_option:mobilization_option_truck_transport
+					value < 0.2
+				}
+			}
+			count = {
+				value = 1
+			}
+		}
+
+#################################################
+###       	MILITARY MOBILIZATION END   	  ###
+#################################################
+
+	}
+}
+
+
+

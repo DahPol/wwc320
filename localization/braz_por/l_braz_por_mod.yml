@@ -1,0 +1,97 @@
+﻿l_braz_por:
+  # Automobiles Industry
+building_automobiles_industry:0 "Indústria Automobilística"
+building_automobiles_industry_lens_option:0 "Expandir $building_automobiles_industry$"
+pmg_base_building_automobiles_industry:0 "Indústria Automobilística"
+pm_mod_automobile_production:0 "Produção de Automóveis"
+building_automobiles_industry_throughput_add:2 "Aumento de $building_automobiles_industry$ [concept_throughput]"
+building_automobiles_industry_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_automobiles_industry$"
+
+  # Steamers Shipyards
+building_steamers_shipyards:0 "Estaleiros de Navios a Vapor"
+building_steamers_shipyards_lens_option:0 "Expandir $building_steamers_shipyards$"
+pmg_base_building_steamers_shipyards:0 "Estaleiro de Navios a Vapor"
+building_steamers_shipyards_throughput_add:2 "Aumento de $building_steamers_shipyards$ [concept_throughput]"
+building_steamers_shipyards_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_steamers_shipyards$"
+
+  # Distilleries
+building_distilleries:0 "Destilarias"
+building_distilleries_lens_option:0 "Expandir $building_distilleries$"
+pmg_base_building_distilleries:0 "Destilarias"
+pmg_automation_building_distilleries:0 "Engarrafamento"
+pm_mod_pot_stills:0 "Alambiques de Panela"
+pm_mod_patent_stills:0 "Alambiques Patenteados"
+pm_manual_bottling:0 "Engarrafamento Manual"
+pm_automatic_bottling:0 "Engarrafamento Automático"
+building_distilleries_throughput_add:2 "Aumento de $building_distilleries$ [concept_throughput]"
+building_distilleries_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_distilleries$"
+
+  # Hardwood Workshops
+building_hardwood_workshops:0 "Oficinas de Madeira Dura"
+building_hardwood_workshops_lens_option:0 "Expandir $building_hardwood_workshops$"
+pmg_base_building_hardwood_workshops:0 "Oficinas de Madeira Dura"
+pm_mod_hardwood:0 "Madeira Dura"
+pm_mod_refined_hardwood:0 "Madeira Dura Refinada"
+building_hardwood_workshops_throughput_add:2 "Aumento de $building_hardwood_workshops$ [concept_throughput]"
+building_hardwood_workshops_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_hardwood_workshops$"
+
+  # Luxury Furniture Manufacturies
+building_luxury_furniture_manufacturies:0 "Manufaturas de Móveis de Luxo"
+building_luxury_furniture_manufacturies_lens_option:0 "Expandir $building_luxury_furniture_manufacturies$"
+pmg_base_building_luxury_furniture_manufacturies:0 "Manufaturas de Móveis de Luxo"
+pm_mod_luxury_furniture:0 "Móveis de Luxo"
+pm_mod_precision_tools:0 "Ferramentas de Precisão"
+building_luxury_furniture_manufacturies_throughput_add:2 "Aumento de $building_luxury_furniture_manufacturies$ [concept_throughput]"
+building_luxury_furniture_manufacturies_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_luxury_furniture_manufacturies$"
+
+  # Luxury Textile Mills
+building_luxury_textile_mills:0 "Fábricas de Tecidos de Luxo"
+building_luxury_textile_mills_lens_option:0 "Expandir $building_luxury_textile_mills$"
+pmg_base_building_luxury_textile_mills:0 "Fábricas de Tecidos de Luxo"
+pm_mod_craftsman_sewing:0 "Costura Artesanal"
+pm_mod_elastics:0 "Elásticos"
+building_luxury_textile_mills_throughput_add:2 "Aumento de $building_luxury_textile_mills$ [concept_throughput]"
+building_luxury_textile_mills_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_luxury_textile_mills$"
+
+  # Men-o-War Military Shipyards
+building_ironclads_military_shipyards:0 "Estaleiros de Ironclads"
+building_ironclads_military_shipyards_lens_option:0 "Expandir $building_ironclads_military_shipyards$"
+pmg_base_building_ironclads_military_shipyards:0 "Estaleiro de Ironclads"
+building_ironclads_military_shipyards_throughput_add:2 "Aumento de $building_ironclads_military_shipyards$ [concept_throughput]"
+building_ironclads_military_shipyards_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_ironclads_military_shipyards$"
+
+  # Porcelain Manufacturies
+building_porcelain_manufacturies:0 "Manufaturas de Porcelana"
+building_porcelain_manufacturies_lens_option:0 "Expandir $building_porcelain_manufacturies$"
+pmg_base_building_porcelain_manufacturies:0 "Manufaturas de Porcelana"
+pmg_automation_building_porcelain_manufacturies:0 "Queima de Cerâmica"
+pm_mod_ceramics:0 "Cerâmica"
+pm_mod_bone_china:0 "Porcelana Fina"
+pm_manual_ceramic_burning:0 "Queima de Cerâmica Manual"
+pm_automatic_ceramic_burning:0 "Queima de Cerâmica Automática"
+building_porcelain_manufacturies_throughput_add:2 "Aumento de $building_porcelain_manufacturies$ [concept_throughput]"
+building_porcelain_manufacturies_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_porcelain_manufacturies$"
+
+  # Radios Industry
+building_radios_industry:0 "Indústria de Rádios"
+building_radios_industry_lens_option:0 "Expandir $building_radios_industry$"
+pmg_base_building_radios_industry:0 "Indústria de Rádios"
+pm_mod_radios:0 "Rádios"
+building_radios_industry_throughput_add:2 "Aumento de $building_radios_industry$ [concept_throughput]"
+building_radios_industry_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_radios_industry$"
+
+  # Synthetics Silk Plants
+building_synthetics_silk_plants:0 "Plantas de Seda Sintética"
+building_synthetics_silk_plants_lens_option:0 "Expandir $building_synthetics_silk_plants$"
+pmg_base_building_synthetics_silk_plants:0 "Plantas de Seda Sintética"
+pm_mod_rayon:0 "Rayon"
+building_synthetics_silk_plants_throughput_add:2 "Aumento de $building_synthetics_silk_plants$ [concept_throughput]"
+building_synthetics_silk_plants_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_synthetics_silk_plants$"
+
+  # Tanks Industry
+building_tanks_industry:0 "Indústria de Tanques"
+building_tanks_industry_lens_option:0 "Expandir $building_tanks_industry$"
+pmg_base_building_tanks_industry:0 "Indústria de Tanques"
+pm_mod_tank_production:0 "Produção de Tanques"
+building_tanks_industry_throughput_add:2 "Aumento de $building_tanks_industry$ [concept_throughput]"
+building_tanks_industry_throughput_add_desc:2 "Um bônus ou penalidade tanto para entrada quanto para saída da $building_tanks_industry$"

@@ -1,0 +1,97 @@
+﻿l_german:
+  # Automobil Werke
+  building_automobiles_industry:0 "Automobil Werke"
+  building_automobiles_industry_lens_option:0 "$building_automobiles_industry$ erweitern"
+  pmg_base_building_automobiles_industry:0 "Automobil Werke"
+  pm_mod_automobile_production:0 "Automobil Produktion"
+  building_automobiles_industry_throughput_add:2 "$building_automobiles_industry$ building [concept_throughput]"
+  building_automobiles_industry_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_automobiles_industry$"
+  
+  # Dampfer Schiffswerften
+  building_steamers_shipyards:0 "Dampfer Schiffswerften"
+  building_steamers_shipyards_lens_option:0 "$building_steamers_shipyards$ erweitern"
+  pmg_base_building_steamers_shipyards:0 "Dampfer Schiffswerften"
+  building_steamers_shipyards_throughput_add:2 "$building_steamers_shipyards$ building [concept_throughput]"
+  building_steamers_shipyards_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_steamers_shipyards$"
+  
+  # Schnapsbrennereien
+  building_distilleries:0 "Schnapsbrennereien"
+  building_distilleries_lens_option:0 "$building_distilleries$ erweitern"
+  pmg_base_building_distilleries:0 "Schnapsbrennereien"
+  pmg_automation_building_distilleries:0 "Abfüllung"
+  pm_mod_pot_stills:0 "Brennblasen"
+  pm_mod_patent_stills:0 "Patentbrennverfahren"
+  pm_manual_bottling:0 "Manuelle Abfüllung"
+  pm_automatic_bottling:0 "Automatische Abfüllung"
+  building_distilleries_throughput_add:2 "$building_distilleries$ building [concept_throughput]"
+  building_distilleries_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_distilleries$"
+  
+  # Hartholz Werkstätten
+  building_hardwood_workshops:0 "Hartholz Werkstätten"
+  building_hardwood_workshops_lens_option:0 "$building_hardwood_workshops$ erweitern"
+  pmg_base_building_hardwood_workshops:0 "Hartholz Werkstätten"
+  pm_mod_hardwood:0 "Hartholz"
+  pm_mod_refined_hardwood:0 "Verbessertes Hartholz"
+  building_hardwood_workshops_throughput_add:2 "$building_hardwood_workshops$ building [concept_throughput]"
+  building_hardwood_workshops_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_hardwood_workshops$"
+  
+  # Luxusmöbel Fabriken
+  building_luxury_furniture_manufacturies:0 "Luxusmöbel Fabriken"
+  building_luxury_furniture_manufacturies_lens_option:0 "$building_luxury_furniture_manufacturies$ erweitern"
+  pmg_base_building_luxury_furniture_manufacturies:0 "Luxusmöbel Fabriken"
+  pm_mod_luxury_furniture:0 "Luxusmöbelproduktion"
+  pm_mod_precision_tools:0 "Präzisionswerkzeuge"
+  building_luxury_furniture_manufacturies_throughput_add:2 "$building_luxury_furniture_manufacturies$ building [concept_throughput]"
+  building_luxury_furniture_manufacturies_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_luxury_furniture_manufacturies$"
+  
+  # Luxuskleidungs Fabriken
+  building_luxury_textile_mills:0 "Luxuskleidungs Fabriken"
+  building_luxury_textile_mills_lens_option:0 "$building_luxury_textile_mills$ erweitern"
+  pmg_base_building_luxury_textile_mills:0 "Luxuskleidungs Fabriken"
+  pm_mod_craftsman_sewing:0 "Handnäharbeit"
+  pm_mod_elastics:0 "Elastikstoffe"
+  building_luxury_textile_mills_throughput_add:2 "$building_luxury_textile_mills$ building [concept_throughput]"
+  building_luxury_textile_mills_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_luxury_textile_mills$"
+  
+  # Panzerschiff Schiffswerften
+  building_ironclads_military_shipyards:0 "Panzerschiff Schiffswerften"
+  building_ironclads_military_shipyards_lens_option:0 "$building_ironclads_military_shipyards$ erweitern"
+  pmg_base_building_ironclads_military_shipyards:0 "Panzerschiff Schiffswerften"
+  building_ironclads_military_shipyards_throughput_add:2 "$building_ironclads_military_shipyards$ building [concept_throughput]"
+  building_ironclads_military_shipyards_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_ironclads_military_shipyards$"
+  
+  # Keramik Fabriken
+  building_porcelain_manufacturies:0 "Keramik Fabriken"
+  building_porcelain_manufacturies_lens_option:0 "$building_porcelain_manufacturies$ erweitern"
+  pmg_base_building_porcelain_manufacturies:0 "Keramik Fabriken"
+  pmg_automation_building_porcelain_manufacturies:0 "Brennvorgang"
+  pm_mod_ceramics:0 "Keramik"
+  pm_mod_bone_china:0 "Knochenporzellan"
+  pm_manual_ceramic_burning:0 "Manuelles Brennen"
+  pm_automatic_ceramic_burning:0 "Automatisches Brennen"
+  building_porcelain_manufacturies_throughput_add:2 "$building_porcelain_manufacturies$ building [concept_throughput]"
+  building_porcelain_manufacturies_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_porcelain_manufacturies$"
+  
+  # Radio Fabriken
+  building_radios_industry:0 "Radio Fabriken"
+  building_radios_industry_lens_option:0 "$building_radios_industry$ erweitern"
+  pmg_base_building_radios_industry:0 "Radio Fabriken"
+  pm_mod_radios:0 "Radios"
+  building_radios_industry_throughput_add:2 "$building_radios_industry$ building [concept_throughput]"
+  building_radios_industry_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_radios_industry$"
+
+  # Kunststoffseiden Werke
+  building_synthetics_silk_plants:0 "Kunststoffseiden Werke"
+  building_synthetics_silk_plants_lens_option:0 "$building_synthetics_silk_plants$ erweitern"
+  pmg_base_building_synthetics_silk_plants:0 "Kunststoffseiden Werke"
+  pm_mod_rayon:0 "Rayon"
+  building_synthetics_silk_plants_throughput_add:2 "$building_synthetics_silk_plants$ building [concept_throughput]"
+  building_synthetics_silk_plants_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_synthetics_silk_plants$"
+  
+  # Panzer Fabriken
+  building_tanks_industry:0 "Panzer Fabriken"
+  building_tanks_industry_lens_option:0 "$building_tanks_industry$ erweitern"
+  pmg_base_building_tanks_industry:0 "Panzer Fabriken"
+  pm_mod_tank_production:0 "Panzer Produktion"
+  building_tanks_industry_throughput_add:2 "$building_tanks_industry$ building [concept_throughput]"
+  building_tanks_industry_throughput_add_desc:2 "Ein Bonus oder Abzug sowohl auf die Zufuhr als auch auf den Ausstoß von $building_tanks_industry$"

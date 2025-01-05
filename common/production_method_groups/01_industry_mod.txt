@@ -1,0 +1,107 @@
+﻿pmg_base_building_automobiles_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_automobile_production
+	}
+}
+
+pmg_base_building_steamers_shipyards = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_metal_shipbuilding
+		pm_arc_welding_shipbuilding
+	}
+}
+
+pmg_base_building_distilleries = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_pot_stills
+		pm_mod_patent_stills
+	}
+}
+
+pmg_automation_building_distilleries = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_bottling 
+		pm_automatic_bottling
+	}
+}	
+
+pmg_base_building_hardwood_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_mod_hardwood
+		pm_mod_refined_hardwood
+	}
+}
+
+pmg_base_building_luxury_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_luxury_furniture
+		pm_mod_precision_tools
+	}
+}
+
+pmg_base_building_luxury_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_luxury_furniture
+		pm_mod_precision_tools
+	}
+}
+
+pmg_base_building_luxury_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_craftsman_sewing
+		pm_mod_elastics
+	}
+}
+
+pmg_base_building_ironclads_military_shipyards = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_military_shipbuilding_steam
+		pm_military_shipbuilding_steam_2
+	}
+}
+
+pmg_base_building_porcelain_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_ceramics
+		pm_mod_bone_china
+	}
+}
+
+pmg_automation_building_porcelain_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_ceramic_burning 
+		pm_automatic_ceramic_burning
+	}
+}	
+
+pmg_base_building_radios_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_radios
+	}
+}
+
+pmg_base_building_synthetics_silk_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_rayon
+	}
+}
+
+pmg_base_building_tanks_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mod_tank_production
+	}
+}

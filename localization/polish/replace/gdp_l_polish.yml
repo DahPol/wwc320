@@ -1,0 +1,2 @@
+﻿l_polish:
+GDP_TOOLTIP: "#header [concept_gdp]#!\n[Country.GetName] – $GDP_SHORT$: [Country.GetGDP|Dv] @money! ($GDPGR_growth_text$) ([Country.GetGDPRanking])\n$TOOLTIP_DELIMITER$\nPKB per capita: #variable [Country.GetGDPPerCapita|2*] @money!#! ([Country.GetGDPPerCapitaRanking])\n\n"
