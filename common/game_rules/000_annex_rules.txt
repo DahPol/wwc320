@@ -1,0 +1,6 @@
+﻿ai_will_use_annex = {
+    default  = ai_annex_yes
+    ai_annex_yes = {}
+    ai_annex_no = {}   
+}
+

@@ -1,0 +1,13 @@
+﻿l_korean:
+  dp_small_annex_war: "Small Annexation"
+  dp_small_annex_war_tooltip: "#header Start a Small Annexation [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\nSets the initiating [concept_war_goal] to completely annex the targeted [concept_country] with less than 6 states."
+  dp_large_annex_war: "Large Annexation"
+  dp_large_annex_war_tooltip: "#header Start a Large Annexation [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\nSets the initiating [concept_war_goal] to completely annex the targeted [concept_country]."
+
+  rule_ai_will_use_annex: "#Red;bold AI use#! of Total Annexation!"
+  setting_ai_annex_yes: "Yes"
+  setting_ai_annex_yes_desc: "AI will use the added [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]!"
+  setting_ai_annex_no: "No"
+  setting_ai_annex_no_desc: "AI will #b not#! use the added [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]!"
+  ta_num_states_less_or_equal_small_annexation: "Number of states that would be annexed are less than or equal to 6."
+  ta_ai_gamerule_enabled: "Game rule for AI to use Total Annexation is enabled"
