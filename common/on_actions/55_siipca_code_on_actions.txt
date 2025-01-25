@@ -1,0 +1,19 @@
+on_law_activated = {
+    on_actions = {
+        law_lawgroup_economic_system_change
+    }
+}
+
+law_lawgroup_economic_system_change = {
+    effect = {
+        owner = {
+            if = {
+                limit = {
+                    has_variable = law_lawgroup_economic_system
+                    NOT = { has_law = var:law_lawgroup_economic_system }
+                }
+                clear_private_construction_add = yes
+            }
+        }
+    }
+}

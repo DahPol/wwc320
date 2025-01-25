@@ -1,0 +1,4 @@
+﻿GLOBAL = {
+	cu:yankee = { add_cultural_obsession = small_arms }
+	cu:dixie = { add_cultural_obsession = small_arms }
+}

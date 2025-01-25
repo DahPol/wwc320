@@ -1,0 +1,99 @@
+set_private_construction_0 = {
+    scope = country
+    is_shown = {
+        always = yes
+    }
+    is_valid = {
+        always = yes
+    }
+    effect = {
+        clear_private_construction_add = yes
+    }
+    ai_is_valid = {
+        always = no
+    }
+}
+
+set_private_construction_1 = {
+    scope = country
+    is_shown = {
+        always = yes
+    }
+    is_valid = {
+        always = yes
+    }
+    effect = {
+        remove_all_private_construction_add_modifier = yes
+        set_variable = {
+            name = private_construction_add
+            value = 1
+        }
+        add_private_construction_1_modifier = yes
+    }
+    ai_is_valid = {
+        always = no
+    }
+}
+
+set_private_construction_2 = {
+    scope = country
+    is_shown = {
+        always = yes
+    }
+    is_valid = {
+        always = yes
+    }
+    effect = {
+        remove_all_private_construction_add_modifier = yes
+        set_variable = {
+            name = private_construction_add
+            value = 2
+        }
+        add_private_construction_2_modifier = yes
+    }
+    ai_is_valid = {
+        always = no
+    }
+}
+
+set_private_construction_3 = {
+    scope = country
+    is_shown = {
+        always = yes
+    }
+    is_valid = {
+        always = yes
+    }
+    effect = {
+        remove_all_private_construction_add_modifier = yes
+        set_variable = {
+            name = private_construction_add
+            value = 3
+        }
+        add_private_construction_3_modifier = yes
+    }
+    ai_is_valid = {
+        always = no
+    }
+}
+
+set_private_construction_4 = {
+    scope = country
+    is_shown = {
+        always = yes
+    }
+    is_valid = {
+        always = yes
+    }
+    effect = {
+        remove_all_private_construction_add_modifier = yes
+        set_variable = {
+            name = private_construction_add
+            value = 4
+        }
+        add_private_construction_4_modifier = yes
+    }
+    ai_is_valid = {
+        always = no
+    }
+}

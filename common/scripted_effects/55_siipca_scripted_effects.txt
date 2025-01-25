@@ -1,0 +1,151 @@
+clear_private_construction_add = {
+    remove_all_private_construction_add_modifier = yes
+    remove_variable = private_construction_add
+    remove_variable = law_lawgroup_economic_system
+}
+
+remove_all_private_construction_add_modifier = {
+    custom_tooltip = {
+        text = remove_all_private_construction_add_modifier_tt
+        remove_modifier = private_construction_add_5_modifier
+        remove_modifier = private_construction_add_10_modifier
+        remove_modifier = private_construction_add_15_modifier
+        remove_modifier = private_construction_add_20_modifier
+        remove_modifier = private_construction_add_30_modifier
+        remove_modifier = private_construction_add_40_modifier
+        remove_modifier = private_construction_add_45_modifier
+        remove_modifier = private_construction_add_60_modifier
+    }
+}
+
+save_law_lawgroup_economic_system = {
+    every_law = {
+        limit = {
+            ROOT = {
+                has_law = PREV.type
+            }
+            this.type = {
+                is_same_law_group_as = law_type:law_interventionism
+            }
+        }
+        ROOT = {
+            set_variable = {
+                name = law_lawgroup_economic_system
+                value = PREV.type
+            }
+        }
+    }
+}
+
+add_private_construction_1_modifier = {
+    save_law_lawgroup_economic_system = yes
+    if = {
+        limit = {
+            is_law_private_construction_25 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_15_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_50 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_10_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_75 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_5_modifier
+        }
+    }
+}
+
+add_private_construction_2_modifier = {
+    save_law_lawgroup_economic_system = yes
+    if = {
+        limit = {
+            is_law_private_construction_25 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_30_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_50 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_20_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_75 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_10_modifier
+        }
+    }
+}
+
+add_private_construction_3_modifier = {
+    save_law_lawgroup_economic_system = yes
+    if = {
+        limit = {
+            is_law_private_construction_25 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_45_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_50 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_30_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_75 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_15_modifier
+        }
+    }
+}
+
+
+add_private_construction_4_modifier = {
+    save_law_lawgroup_economic_system = yes
+    if = {
+        limit = {
+            is_law_private_construction_25 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_60_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_50 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_40_modifier
+        }
+    }
+    else_if = {
+        limit = {
+            is_law_private_construction_75 = yes
+        }
+        add_modifier = {
+            name = private_construction_add_20_modifier
+        }
+    }
+}
