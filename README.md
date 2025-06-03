@@ -28,3 +28,7 @@ Hasta ahora tenemos:
  - Violate Sovereignty Fixed
  - We Need More Transportation!
  - 选择性提高的私人建设分配 | Selective Increase in Private Construction Allocation
+ - Shocks to the System
+ - The Three Brothers REDUX: A Scandinavian Flavor Pack
+ - Community Mod Framework
+ - Explorable Real-World Resources

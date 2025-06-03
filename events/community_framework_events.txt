@@ -1,0 +1,167 @@
+﻿##################################
+# COMMUNITY MOD FRAMEWORK EVENTS #
+##################################
+
+# This file is here for error suppression and event window testing. It has no other purpose. Do NOT call these events.
+
+####################
+
+namespace = community_framework_events
+
+####################
+
+community_framework_events.1 = { # Error supression
+    type = country_event
+    placement = root
+    hidden = yes
+
+	# DO NOT CALL THIS EVENT
+	trigger = {
+		always = no
+	}
+	
+	cancellation_trigger = {
+		always = yes
+	}
+
+	immediate = {
+		fix_variable_error = { variable = community_gui_objective_var }
+		fix_variable_error = { variable = custom_button_list }
+		fix_variable_error = { variable = custom_button_list_flag }
+		fix_variable_error = { variable = had_progressive_era }
+		fix_variable_error = { variable = custom_social_hierarchy }
+		fix_variable_error = { variable = com_journal_characters }
+		fix_variable_error = { variable = com_opinion }
+		fix_variable_error = { variable = com_gui_progressbar_var }
+		fix_variable_error = { variable = ccp_land_revolution_ig }
+		fix_variable_error = { variable = is_struct }
+		fix_variable_error = { variable = com_type }
+		fix_variable_error = { variable = com_local_goods }
+		fix_variable_error = { variable = example_on_action_weekly_run_date }
+		fix_variable_error = { variable = no_heirs }
+		fix_variable_error = { variable = com_hidden_journal_groups }
+		fix_variable_error = { variable = com_custom_owner_buildings }
+		fix_variable_error = { variable = com_no_formation_events }
+		fix_variable_error = { variable = next_dict_id }
+		fix_variable_error = { variable = kvp_key }
+		fix_variable_error = { variable = kvp_value }
+		fix_variable_error = { variable = kvp }
+	}
+	
+	orphan = yes
+	
+}
+
+community_framework_events.2 = { # GUI window testing
+	type = country_event
+	placement = root
+	
+	title = community_framework_events.2.t
+	desc = community_framework_events.2.d
+	flavor = community_framework_events.2.f
+	
+	left_icon = scope:left_icon
+	
+	gui_window = event_window_struggle
+	
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+	
+	trigger = {
+		# Testing only
+	}
+	
+	immediate = {
+		ruler = {
+			save_scope_as = left_icon
+		}
+		ruler = {
+			save_scope_as = right_icon
+		}
+	}
+	
+	option = {
+		name = community_framework_events.2.a
+		default_option = yes
+	}
+	
+	option = {
+		name = community_framework_events.2.b
+	}
+	
+	option = {
+		name = community_framework_events.2.c
+	}
+	
+	option = {
+		name = community_framework_events.2.e
+	}
+	
+	orphan = yes
+
+}
+
+community_framework_events.3 = { # GUI window testing
+	type = country_event
+	placement = root
+	
+	title = community_framework_events.2.t
+	desc = community_framework_events.2.d
+	flavor = community_framework_events.2.f
+	
+	left_icon = scope:left_icon
+	right_icon = scope:right_icon
+	
+	gui_window = event_window_struggle
+	
+	event_image = {
+		texture = "gfx/loadingscreens/victoria3_load_0.dds"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+	
+	duration = 3
+	
+	trigger = {
+		# Testing only
+	}
+	
+	immediate = {
+		ruler = {
+			save_scope_as = left_icon
+		}
+		ruler = {
+			save_scope_as = right_icon
+		}
+	}
+	
+	option = {
+		name = community_framework_events.2.a
+		default_option = yes
+	}
+	
+	option = {
+		name = community_framework_events.2.b
+	}
+	
+	option = {
+		name = community_framework_events.2.c
+	}
+	
+	option = {
+		name = community_framework_events.2.e
+	}
+	
+	orphan = yes
+
+}

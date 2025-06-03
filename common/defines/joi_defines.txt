@@ -1,0 +1,4 @@
+NPops = {	 
+	#劳动力比例
+	WORKING_ADULT_RATIO_BASE = 0.35				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.										
+} 
